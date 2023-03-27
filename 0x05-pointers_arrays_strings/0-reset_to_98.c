@@ -1,22 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * reset_to_98 - updates the value of the variable
+ * the pointer points to to 98
+ * @n: pointer to the variable to update
  */
-void swap(int *x)
+void reset_to_98(int *n)
 {
-
-    *x = 98;
-}
-int main(void)
-{
-
-    int n = 420;
-    printf("n is : %d\n", n);
-    swap(&n);
-    printf("n is : %d\n", n);
-    return (0);
+	*n = 98;
 }
