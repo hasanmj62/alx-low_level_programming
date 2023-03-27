@@ -18,4 +18,5 @@ int main(void)
     printf("n is : %d\n", n);
     swap(&n);
     printf("n is : %d\n", n);
+    return (0);
 }
