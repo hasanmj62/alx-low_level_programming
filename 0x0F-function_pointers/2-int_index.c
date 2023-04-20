@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 
 /**
-* int_index - SEARCHES FOR AN INTEGER.
-* @ARRAY: array to search inside.
-* @size:size of the ARRAY.
+* int_index - searches for an integer.
+* @array: array to search inside.
+* @size:size of the array.
 * @cmp: pointer to the comparing function
 *
 * Return: index of the first element for which of
