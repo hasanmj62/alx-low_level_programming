@@ -8,7 +8,7 @@
 * Return: pointing the new NODE , otherwise NULL IF FAIL.
 */
 
-listint_t *add_nodeint_end(listint_t **head, const int m)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 listint_t *new;
 listint_t *temp = *head;
