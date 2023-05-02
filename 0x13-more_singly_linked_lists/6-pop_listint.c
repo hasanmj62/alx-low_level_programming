@@ -7,7 +7,7 @@
 * || if the list is empty.
 */
 
-int pop_listint(pop_listint **head)
+int pop_listint(pop_listint_t **head)
 {
 listint_t *temp;
 int num;
